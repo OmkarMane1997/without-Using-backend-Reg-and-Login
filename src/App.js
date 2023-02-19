@@ -6,7 +6,6 @@ import Registration from "./components/Registration";
 import Movie from "./components/Movie";
 import PageNotFound from "./components/PageNotFound";
 import { ToastContainer } from "react-toastify";
-import Company from "./components/Company";
 function App() {
   return (
     <>
@@ -29,7 +28,6 @@ function App() {
           <Route path={"/Login"} element={<Login />} />
           <Route path={"/Registration"} element={<Registration />} />
           <Route path={"/Movie"} element={<Movie />} />
-          <Route path={"/Company"} element={<Company />} />
           <Route path={"/*"} element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
